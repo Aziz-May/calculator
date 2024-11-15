@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="inputt"> 
+                <input type="text"  id="display"> 
+            </div>
+            <div class="except">
+                <input type="button" value="AC" class="cyann" onclick= "allclear(this) ">
+                <input type="button" value="DC" class="cyann" onclick="del(this)">
+                <input type="button" value="." class="cyann" onclick= "displayy(this)">
+                <input type="button" value="/" class="cyann" onclick= "displayy(this)">
+            </div>
+            <div class="except">
+                <input type="button" value="9" onclick= "displayy(this)">
+                <input type="button" value="8" onclick= "displayy(this)">
+                <input type="button" value="7" onclick= "displayy(this)">
+                <input type="button" value="*" class="cyann" onclick= "displayy(this)">
+            </div>
+            <div class="except">
+                <input type="button" value="6" onclick= "displayy(this)">
+                <input type="button" value="5" onclick= "displayy(this)">
+                <input type="button" value="4" onclick= "displayy(this)">
+                <input type="button" value="-" class="cyann" onclick= "displayy(this)">
+            </div>
+            <div class="except">
+                <input type="button" value="3" onclick= "displayy(this)">
+                <input type="button" value="2" onclick= "displayy(this)">
+                <input type="button" value="1" onclick= "displayy(this)">
+                <input type="button" value="+" class="cyann" onclick="displayy(this)">
+            </div>
+            <div class="exceptt">
+                <input type="button" value="00" onclick= "displayy(this)">
+                <input type="button" value="0" onclick= "displayy(this)">
+                <input type="button" value="=" id="equal" class="cyann" onclick="result(this)" >
+                
+            </div>
+
+
+
+        </div>
+        
+
+
+
+
+
+
+
+    </div>
+    <script src="index.js"> </script>
+    
+</body>
+</html>
